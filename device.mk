@@ -161,7 +161,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     liboverlay \
     libqdMetaData \
-    libqdMetaData.system \
+    libqdMetaData.vendor \
     libgenlock \
     libtinyxml
 
@@ -243,11 +243,17 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     android.hardware.camera.device@3.3 \
     android.hardware.camera.device@3.4 \
     android.hardware.camera.provider@2.4 \
     android.hardware.camera.provider@2.5 \
     libshim_imscamera \
+=======
+    libqdMetaData \
+    libqdMetaData.vendor \
+    libshim_imsvideocodec \
+>>>>>>> 5cf1627... rova: build vendor variant of libqdMetaData
     vendor.qti.hardware.camera.device@1.0
 
 PRODUCT_PACKAGES += \
