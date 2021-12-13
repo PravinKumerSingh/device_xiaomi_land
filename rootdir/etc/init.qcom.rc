@@ -406,6 +406,12 @@ on property:persist.vendor.radio.atfwd.start=false
 on property:vendor.radio.atfwd.start=false
     stop vendor.atfwd
 
+service qcom-c_main-sh /vendor/bin/init.class_main.sh
+    class main
+    user root
+    group root system
+    oneshot
+
 on property:vold.decrypt=trigger_restart_framework
     start config_bt_addr
     restart vendor.audio-hal
