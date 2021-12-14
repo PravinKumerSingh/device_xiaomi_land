@@ -336,6 +336,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.1.vendor \
     vendor.qti.hardware.perf@2.2.vendor
 
+# Platform
+TARGET_BOARD_PLATFORM := msm8937
+TARGET_BOARD_SUFFIX := _64
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
