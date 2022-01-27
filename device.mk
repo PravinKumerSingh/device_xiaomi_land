@@ -163,7 +163,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.vendor \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    vendor.display.config@1.0.vendor
 
 # DPM
 PRODUCT_PACKAGES += \
