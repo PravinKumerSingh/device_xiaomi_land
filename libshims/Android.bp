@@ -93,4 +93,6 @@ cc_library_shared {
     srcs: [
         "ims/libgui.cpp"
     ],
+    compile_multilib: "64",
+    system_ext_specific: true
 }
