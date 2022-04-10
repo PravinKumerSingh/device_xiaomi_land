@@ -1092,11 +1092,11 @@ vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
-# TUI - from daisy
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
+# TUI - from LA.UM.9.6.3.r1-04400-89xx.0
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|313677dd28de6f6b2a5cf8b136d8ce0723bb5a65
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|b478f9ba87abd265ac15a154ab7412fed5839664
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|4c0ca298767b463c2378374e24eef354fdf74b7d
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|3551ef9cda906b123b0263d8f902521efc6f6342
 
 # Voice - from daisy
 vendor/lib/vendor.qti.voiceprint@1.0.so|b70091c7b738394468b7d732df283d23a3975f46
