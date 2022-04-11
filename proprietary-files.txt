@@ -624,9 +624,9 @@ lib64/libfpservice.so:vendor/lib64/libfpservice.so|beca82a4f50b6fcb7959c6171f2d5
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|5f48a9ed98dad9fa59cf1a2469f53e1066ab24a6
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|bab0150ce3fdc5d180a32ab9499e7693be2e0d0a
 
-# Gatekeeper - from daisy
-vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so|cd04140788659ae07a50081baeb3eb2e42f37028
-vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|1086e5dcda7aa2bed7ac015f7850095f6199a1c2
+# Gatekeeper - from LA.UM.9.6.2.r1-04200-89xx.0
+vendor/lib/hw/gatekeeper.msm8937.so|6569776d73f57c9a213a38707351db6e8ffa68a6
+vendor/lib64/hw/gatekeeper.msm8937.so|9a7297653a3b7af0a5922ac93c554e4f13e6958f
 
 # GPS - from daisy
 vendor/bin/loc_launcher|06793983f836a9b42b5ff3848f8fe177134c1379
@@ -731,9 +731,9 @@ vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 vendor/bin/msm_irqbalance|e5706bc0acab394b53fafdc1d7f342f69c6f5649
 vendor/etc/msm_irqbalance.conf|3e45e1da03ab49ce9d3f855011aca00f1e417a53
 
-# Keystore - from daisy
-vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so|c56d3768e04fc180d844dbca94be8c27770e37d5
-vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b
+# Keystore - from LA.UM.9.6.2.r1-04200-89xx.0
+vendor/lib/hw/keystore.msm8937.so|620b5080bc7c17f2c5ef76832ef915edd3ce30fa
+vendor/lib64/hw/keystore.msm8937.so|03786c28112bb9e67958ee72ec1b3852bc9c6b9f
 
 # Latency - from daisy
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
