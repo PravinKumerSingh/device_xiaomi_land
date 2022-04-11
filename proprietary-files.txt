@@ -75,8 +75,11 @@ system/framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
 vendor/lib/soundfx/libasphere.so|4d0ccf1c282bb70619d20bf7d79021dc3815a579
 vendor/lib64/soundfx/libasphere.so|f552a053f935299b3fd9be03a596eb4c40dee50e
 
-# ANT+ (vendor) - from daisy
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|f40868ad57012f1a512b14c889bc8380652cc50f
+# ANT+ - from LA.UM.9.6.3.r1-04400-89xx.0
+system_ext/lib/com.qualcomm.qti.ant@1.0.so|aef52176c44e62cb5efdd4441144caf62387d98f
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so|3a7b0647df0b556ca1389698b13122ca7d5f5deb
+vendor/lib/hw/com.dsi.ant@1.0-impl.so|5c65523431b88a9aaa8c70a58b9d4ac66be26698
+vendor/lib64/hw/com.dsi.ant@1.0-impl.so|87dc1a131534659173e71e108e7a3ffe6325845f
 
 # AV Enhancements - from LA.UM.9.6.3.r1-04400-89xx.0
 system_ext/lib/libavenhancements.so|9372b77cbd6667a2144c55da1adf3859ae37f849
