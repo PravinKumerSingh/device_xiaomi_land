@@ -111,6 +111,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/config
 ro.vendor.qti.va_aosp.support=1
 
 # Media
+audio.safemedia.bypass=true
 av.debug.disable.pers.cache=1
 debug.stagefright.omx_default_rank=0
 debug.stagefright.omx_default_rank.sw-audio=16
