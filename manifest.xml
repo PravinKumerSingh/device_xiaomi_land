@@ -135,6 +135,8 @@
     <hal format="hidl">
         <name>com.qualcomm.qti.wifidisplayhal</name>
         <transport>hwbinder</transport>
+        <fqname>@1.0::IDSManager/wifidisplaydshal</fqname>
+        <fqname>@1.0::IHDCPSession/wifidisplayhdcphal</fqname>
         <fqname>@2.3::IDSManager/wifidisplaydshal</fqname>
         <fqname>@2.3::IHDCPSession/wifidisplayhdcphal</fqname>
     </hal>
@@ -263,6 +265,11 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::IUimRemoteServiceServer/uimRemoteServer0</fqname>
         <fqname>@1.0::IUimRemoteServiceServer/uimRemoteServer1</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.sigma_miracast</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::Isigma_miracast/sigmahal</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.tui_comm</name>

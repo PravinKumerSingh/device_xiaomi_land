@@ -60,6 +60,10 @@ ro.telephony.call_ring.multiple=false
 ro.telephony.default_network=22,22
 ro.telephony.use_old_mnc_mcc_format=true
 
+# WiFi Display
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
