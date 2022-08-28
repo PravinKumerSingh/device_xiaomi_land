@@ -65,10 +65,6 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant@1.0.vendor
 
-# Device-specific Settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # APEX
 OVERRIDE_TARGET_FLATTEN_APEX := true
 OVERRIDE_PRODUCT_COMPRESSED_APEX := false
