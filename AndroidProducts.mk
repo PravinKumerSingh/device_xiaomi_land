@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_land.mk
+    $(LOCAL_DIR)/cherish_land.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_land-user \
-    nad_land-userdebug \
-    nad_land-eng
+    cherish_land-user \
+    cherish_land-userdebug \
+    cherish_land-eng
