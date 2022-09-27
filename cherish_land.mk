@@ -9,25 +9,29 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Nusantara stuff.
+# Inherit some common cherish stuff.
 TARGET_BOOT_ANIMATION_RES := 720
-NAD_BUILD_TYPE := OFFICIAL
-USE_PIXEL_CHARGING := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Inherit from land device
 $(call inherit-product, device/xiaomi/land/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := land
-PRODUCT_NAME := nad_land
+PRODUCT_NAME := cherish_land
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 3S / 3X
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
+
+# Inherit some props from Cherish
+CHERISH_BUILD_TYPE := UNOFFICIAL
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=Warrior
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
